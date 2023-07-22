@@ -16,61 +16,25 @@ const RentPropertiesContainer = () => {
         </div>
         <div className="self-stretch flex flex-row flex-wrap py-0 px-2.5 items-center justify-center gap-[32px]">
           <PropertyCard
-            propertyImage="/unsplashrlwe8f8anoc7@2x.png"
-            car="/car5.svg"
-            bathtub="/bathtub5.svg"
-            arrowsOut="/arrowsout2.svg"
-            ellipse1="/ellipse-1@2x.png"
-            shareNetwork="/sharenetwork6.svg"
-            heart="/heart2.svg"
-            plus="/plus7.svg"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
+            imgUrl="/unsplashrlwe8f8anoc7@2x.png"
+            name="92 Allium Place, Orlando"
+            price="360,923"
+            />
+          <PropertyCard
+            imgUrl="/unsplashrlwe8f8anoc8@2x.png"
+            name="92 Allium Place, Orlando"
+            price="360,923"
+            />
+          <PropertyCard
+            imgUrl="/unsplashrlwe8f8anoc9@2x.png"
+          name="92 Allium Place, Orlando"
+          price="360,923"
           />
           <PropertyCard
-            propertyImage="/unsplashrlwe8f8anoc8@2x.png"
-            car="/car5.svg"
-            bathtub="/bathtub5.svg"
-            arrowsOut="/arrowsout2.svg"
-            ellipse1="/ellipse-1@2x.png"
-            shareNetwork="/sharenetwork6.svg"
-            heart="/heart2.svg"
-            plus="/plus8.svg"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
-          />
-          <PropertyCard
-            propertyImage="/unsplashrlwe8f8anoc9@2x.png"
-            car="/car6.svg"
-            bathtub="/bathtub.svg"
-            arrowsOut="/arrowsout3.svg"
-            ellipse1="/ellipse-1@2x.png"
-            shareNetwork="/sharenetwork7.svg"
-            heart="/heart2.svg"
-            plus="/plus3.svg"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
-          />
-          <PropertyCard
-            propertyImage="/unsplashrlwe8f8anoc10@2x.png"
-            car="/car6.svg"
-            bathtub="/bathtub.svg"
-            arrowsOut="/arrowsout3.svg"
-            ellipse1="/ellipse-1@2x.png"
-            shareNetwork="/sharenetwork7.svg"
-            heart="/heart2.svg"
-            plus="/plus3.svg"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
-          />
+            imgUrl="/unsplashrlwe8f8anoc10@2x.png"
+            name="92 Allium Place, Orlando"
+            price="360,923"
+            />
         </div>
       </div>
       <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded flex flex-row items-start justify-start hover:bg-steelblue">
@@ -82,4 +46,4 @@ const RentPropertiesContainer = () => {
   );
 };
 
-export default RentPropertiesContainer;
+export default RentPropertiesContainer; 
